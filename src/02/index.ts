@@ -38,9 +38,9 @@ const solveTwo = async () => {
   const lineReader = readFile(`${__dirname}/input.txt`);
   const outcomeMap2 = {
     a: {
-      x: outcomes.l + shapePoints.r,
-      y: outcomes.d + shapePoints.p,
-      z: outcomes.w + shapePoints.s,
+      x: outcomes.l + shapePoints.s,
+      y: outcomes.d + shapePoints.r,
+      z: outcomes.w + shapePoints.p,
     },
     b: {
       x: outcomes.l + shapePoints.r,
@@ -48,9 +48,9 @@ const solveTwo = async () => {
       z: outcomes.w + shapePoints.s,
     },
     c: {
-      x: outcomes.l + shapePoints.r,
-      y: outcomes.d + shapePoints.p,
-      z: outcomes.w + shapePoints.s,
+      x: outcomes.l + shapePoints.p,
+      y: outcomes.d + shapePoints.s,
+      z: outcomes.w + shapePoints.r,
     },
   } as any;
 
