@@ -1,4 +1,4 @@
-import { readFile } from "./utils";
+import { readFile } from "/src/utils";
 
 const solve = async () => {
   const lineReader = readFile(`${__dirname}/input.txt`);
