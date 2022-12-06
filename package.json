@@ -6,7 +6,8 @@
     "1": "npx ts-node src/01",
     "2": "npx ts-node src/02",
     "3": "npx ts-node src/03",
-    "4": "npx ts-node src/04"
+    "4": "npx ts-node src/04",
+    "6": "npx ts-node src/06"
   },
   "devDependencies": {
     "@tsconfig/node18": "^1.0.1",
